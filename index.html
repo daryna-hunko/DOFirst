@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOFirst - plan your everything</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--
+      <script type="module" src="./js/main.js" async></script>
+    -->
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <h3 class="logo"><span>DO</span>First</h3>
+          </div>
+          <div class="col">
+            <div class="nav">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login">
+                    Sign In
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registrate">
+                    Sign Up
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="cover-page">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+                <h1 class="logo"><span>DO</span>First</h1>
+                <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+                <p class="lead">
+                  <a href="#" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#registrate">Sign Up</a>
+                  <a href="#" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#login">Sign In</a>
+                </p>
+            </div>
+            <div class="col">
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+  
+    <footer>
+      <div class="container">
+        &copy; Слеплено Inc.
+      </div>
+    </footer>
+
+
+    <!-- Modal Sign In-->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="loginEmail1">Email address</label>
+                <input type="email" class="form-control" id="loginEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="loginPassword1">Password</label>
+                <input type="password" class="form-control" id="loginPassword1" placeholder="Password">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="loginCheck1">
+                <label class="form-check-label" for="loginCheck1">Check me out</label>
+              </div>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Sign Up-->
+    <div class="modal fade" id="registrate" tabindex="-1" role="dialog" aria-labelledby="registrate" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="registrateEmail1">Email address</label>
+                      <input type="email" class="form-control" id="registrateEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="registratePassword1">Password</label>
+                      <input type="password" class="form-control" id="registratePassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="registrateCheck1">
+                      <label class="form-check-label" for="registrateCheck1">Check me out</label>
+                    </div>
+                  </form>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

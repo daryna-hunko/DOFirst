@@ -1,0 +1,34 @@
+[
+  {
+    "userId": 1,
+    "userName": "test",
+    "userEmail": "test@test.com",
+    "isAdmin": 1,
+    "dateCreated": 123,
+    "dateLastModified": 123
+  },
+  {
+    "userId": 2,
+    "userName": "test",
+    "userEmail": "test@test.com",
+    "isAdmin": 1,
+    "dateCreated": 123,
+    "dateLastModified": 123
+  },
+  {
+    "userId": 3,
+    "userName": "test",
+    "userEmail": "test@test.com",
+    "isAdmin": 1,
+    "dateCreated": 123,
+    "dateLastModified": 123
+  },
+  {
+    "userId": 4,
+    "userName": "test",
+    "userEmail": "test@test.com",
+    "isAdmin": 1,
+    "dateCreated": 123,
+    "dateLastModified": 123
+  }
+]
